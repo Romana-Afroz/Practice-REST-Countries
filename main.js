@@ -17,7 +17,8 @@ const getCountryHtml=country => {
     <div class="country">
     <h2>${country.name}</h2>
     <h4>Capital:${country.capital}</h4>
-    <h4>Time:${country.timezones}</h4>
+    <h4>Subregion:${country.subregion}</h4>
+    <h4>Currency:${country.currencies[0].name}</h4>
     <h4>Language:${country.languages[0].name}</h4>
     <h4>NativeName:${country.nativeName}</h4>
     <h4>Region:${country.region}</h4>
